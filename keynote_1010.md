@@ -1,6 +1,8 @@
 # 基調講演 10／10 beyond grep
 
 ox.cx/b に情報が上がっている
+@hynek
+vrmd.de
 
 ## ERRORS
 
@@ -86,7 +88,6 @@ Elasticsearch(検索エンジン) ~ logstash(LOGGINGソフト) + Kibana(UIF)
 
 ### Graylog
 
-* ELKと似たようなのもの
 * ELKハビューだけだど，様々な機能がある
 
 ## structlog
