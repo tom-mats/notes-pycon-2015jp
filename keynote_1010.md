@@ -62,7 +62,7 @@ https経由でデータを投げる
   * 中を簡単にはみれない
 * Aggreaget in-app deliver to DB
  * 使い易い
- * 状態をもってしまうのでバグの温床担ってします
+ * 状態をもってしまうのでバグの温床になってしまう
 
 ### Scales
 
@@ -72,8 +72,6 @@ https経由でデータを投げる
 
 ## logging
 
-*
-
 ### splunk
 
 + Enterprieseソフトウェア
@@ -82,6 +80,18 @@ https経由でデータを投げる
 
 ### loggly
 
-### ELK
+### ELK <- これは便利そう
 
 Elasticsearch(検索エンジン) ~ logstash(LOGGINGソフト) + Kibana(UIF)
+
+### Graylog
+
+* ELKと似たようなのもの
+* ELKハビューだけだど，様々な機能がある
+
+## structlog
+
+ログの際のデータとフォーマットを生成する，JSON形式で出力
+
+
+## コードをきれい二する
