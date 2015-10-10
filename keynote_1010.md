@@ -44,3 +44,44 @@ https経由でデータを投げる
 ### influx DB
 
 + Goで書かれている
+
+### Prometheus
+
+* metrics + Monitoring
+* PULLベース
+* Alertを考慮した上で設計されている
+  + 何かが起こったら通知してくれる
+* GUI PromDash
+  + GRAFANAを正式サポート
+
+## Approaches
+
++ External aggregation SatsD, Riemann
+  + Rimanは設定が若干難しい
+  * 状態がないので単純
+  * 中を簡単にはみれない
+* Aggreaget in-app deliver to DB
+ * 使い易い
+ * 状態をもってしまうのでバグの温床担ってします
+
+### Scales
+
++ MeterStat:毎秒あたり
+* PmfStat+タイマー
+* JSON形式もサポート
+
+## logging
+
+*
+
+### splunk
+
++ Enterprieseソフトウェア
+
+### Papertrail
+
+### loggly
+
+### ELK
+
+Elasticsearch(検索エンジン) ~ logstash(LOGGINGソフト) + Kibana(UIF)
